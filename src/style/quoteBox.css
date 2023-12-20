@@ -1,0 +1,11 @@
+.quote-box{
+    justify-content: center;
+    display: flex;
+    padding: 20px 50px 20px 25px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
