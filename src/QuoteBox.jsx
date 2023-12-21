@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useQuoteContext } from './context/useQuoteContext';
 import './style/quoteBox.css'
 
-const API_URL = 'https://api.api-ninjas.com/v1/quotes';
+const API_URL = '/v1/quotes';
 const QuoteBox = () => {
     const [newQuote, setNewQuote] = useState(true);
     const { state, dispatch } = useQuoteContext();
